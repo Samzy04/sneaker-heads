@@ -1,3 +1,50 @@
+body {
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background: linear-gradient(#74c9f1, #fb4040);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.row {
+    display: flex; /* Use flexbox to create a row layout */
+    justify-content: center; /* Center-align items in the row */
+}
+
+.sneaker-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sneaker-container img {
+    height: 400px;
+    width: auto; /* Allow the image width to stretch to maintain aspect ratio */
+}
+
+.sneaker-desc {
+    color: white;
+    background-color: rgb(2, 197, 197);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.sneaker-desc a {
+    color: white;
+    text-decoration: underline;
+}
+
 /* Write Your CSS Below 
 Colors: 
 - rgb(243, 183, 106)
